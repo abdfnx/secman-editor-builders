@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://raw.githubusercontent.com/abdfnx/secman-editor-builders/main/unix/unix.sh",
+      "permanent": true
+    }
+  ]
+}
