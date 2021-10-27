@@ -8,7 +8,7 @@ smUrl=$releases_api_url/$v/editor
 
 wget $smUrl
 
-sudo chmod 755 editor
+chmod 755 editor
 
 mv editor ~/.secman
 
