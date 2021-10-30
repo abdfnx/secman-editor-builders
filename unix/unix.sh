@@ -6,6 +6,8 @@ smUrl=$releases_api_url/$v/editor
 
 wget -P ~/.secman $smUrl
 
+sudo chmod 755 ~/.secman/editor
+
 if [ -f ~/.secman/editor ]; then
     echo "Secman Editor Installed"
 else
